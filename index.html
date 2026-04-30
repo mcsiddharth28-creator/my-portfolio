@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Siddarth — Creative Designer Portfolio</title>
+  <meta name="description" content="Siddarth is a designer specializing in graphic design, brand identity, and video editing. Explore comprehensive case studies and design work." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="topbar">
+    <div class="wrap topbar__row">
+      <a class="brand" href="#home" data-jump="#home" aria-label="Siddarth Home">
+
+        <span class="brand__text">
+          <span class="brand__name">Siddarth</span>
+          <span class="brand__sub">Designer</span>
+        </span>
+      </a>
+
+      <button class="menuBtn" type="button" data-menu-btn aria-controls="siteNav" aria-expanded="false">
+        <span class="menuBtn__line"></span>
+        <span class="menuBtn__line"></span>
+        <span class="menuBtn__line"></span>
+        <span class="srOnly">Open menu</span>
+      </button>
+
+      <nav class="nav" id="siteNav" data-nav>
+        <a class="nav__link is-active" href="#home" data-jump="#home">Home</a>
+        <a class="nav__link" href="#services" data-jump="#services">Services</a>
+        <a class="nav__link" href="#work" data-jump="#work">Work</a>
+        <a class="nav__link" href="#process" data-jump="#process">Process</a>
+        <a class="nav__link" href="#about" data-jump="#about">About</a>
+        <a class="nav__link" href="#contact" data-jump="#contact">Contact</a>
+      </nav>
+    </div>
+    <div class="progressWrap" aria-hidden="true">
+      <div class="progressBar" data-progress></div>
+    </div>
+  </header>
+
+  <aside class="rail" aria-label="Quick jump navigation">
+    <button class="rail__dot is-active" data-jump="#home" aria-label="Go to Home"></button>
+    <button class="rail__dot" data-jump="#services" aria-label="Go to Services"></button>
+    <button class="rail__dot" data-jump="#work" aria-label="Go to Work"></button>
+    <button class="rail__dot" data-jump="#process" aria-label="Go to Process"></button>
+    <button class="rail__dot" data-jump="#about" aria-label="Go to About"></button>
+    <button class="rail__dot" data-jump="#contact" aria-label="Go to Contact"></button>
+    <span class="rail__label" data-rail-label>Home</span>
+  </aside>
+
+  <button class="backToTop" type="button" data-top aria-label="Back to top">↑</button>
+
+  <main id="main-content">
+    <section id="home" class="section hero" data-section data-label="Home">
+      <div class="hero__glow hero__glow--one" aria-hidden="true"></div>
+      <div class="hero__glow hero__glow--two" aria-hidden="true"></div>
+      <div class="wrap hero__grid">
+        <div class="hero__content reveal">
+          <p class="eyebrow">Brand identity • Graphic design • Video editing</p>
+          <h1 class="hero__title">Creative work that gives brands a sharper presence online.</h1>
+          <p class="hero__lead">
+            I'm Siddarth, a designer creating thoughtful visual experiences and digital narratives.
+            I design identities, create campaigns, develop video content, and craft visual systems for brands.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#work" data-jump="#work">View selected work</a>
+            <a class="btn btn--ghost" href="#contact" data-jump="#contact">Start a project</a>
+          </div>
+
+          <div class="hero__stats">
+            <div class="stat">
+              <span class="stat__num">5</span>
+              <span class="stat__label">design projects</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num">2</span>
+              <span class="stat__label">core services</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num">Brand → Real</span>
+              <span class="stat__label">design-to-output pipeline</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="heroPanel reveal reveal--delay1">
+          <div class="heroPanel__top">
+            <span class="heroPanel__tag">Selected focus</span>
+            <h2>Multiple disciplines. One vision.</h2>
+            <p>A collection of design work showcasing brand identity, graphic design, and visual storytelling.</p>
+          </div>
+          <div class="heroPanel__list">
+            <article class="heroMiniCard">
+              <span class="heroMiniCard__meta">Graphic Design</span>
+              <strong>Pāw Prints, Shrigana, VON, Digital Canvas</strong>
+              <p>Identity design, colour systems, packaging, campaigns, signage, and rollout assets.</p>
+            </article>
+            <article class="heroMiniCard">
+              <span class="heroMiniCard__meta">Video Editing</span>
+              <strong>Launch Edits & Social Cuts</strong>
+              <p>Promo reels, campaign content, motion-led visuals, and platform-ready video formats.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight valueStrip">
+      <div class="wrap valueStrip__row reveal">
+        <div class="valueStrip__item"><span>01</span> Strategy-first creative direction</div>
+        <div class="valueStrip__item"><span>02</span> Visual systems with consistency</div>
+        <div class="valueStrip__item"><span>03</span> Video content for engagement</div>
+      </div>
+    </section>
+
+    <section id="services" class="section" data-section data-label="Services">
+      <div class="wrap">
+        <div class="sectionHead reveal">
+          <p class="eyebrow eyebrow--dark">Services</p>
+          <h2>What I create</h2>
+        </div>
+
+        <div class="serviceGrid">
+          <article class="serviceCard reveal">
+            <span class="serviceCard__icon">✦</span>
+            <h3>Graphic design</h3>
+            <p>Identity systems, campaign graphics, marketing collateral, packaging, and presentation-ready visual language.</p>
+            <ul>
+              <li>Logo and identity systems</li>
+              <li>Brand guidelines and asset kits</li>
+              <li>Campaign visuals and social graphics</li>
+            </ul>
+            <a class="projectCard__ctaLink" href="social-media-posters.html">Open Digital Canvas →</a>
+          </article>
+
+          <article class="serviceCard reveal reveal--delay1">
+            <span class="serviceCard__icon">▶</span>
+            <h3>Video editing</h3>
+            <p>Short-form edits, promo content, motion-led visuals, and platform-ready video formats for digital campaigns.</p>
+            <ul>
+              <li>Social edits and launch reels</li>
+              <li>Motion design and transitions</li>
+              <li>Creative packaging for content</li>
+            </ul>
+            <a class="projectCard__ctaLink" href="video-editing-gallery.html">Open video gallery →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section workSection" data-section data-label="Work">
+      <div class="wrap">
+        <div class="sectionHead sectionHead--split reveal">
+          <div>
+            <p class="eyebrow eyebrow--dark">Selected work</p>
+            <h2>Real case studies, not filler tiles</h2>
+            <!-- <p class="sectionLead">The fake gallery has been replaced with direct links to the uploaded case-study pages, grouped so the portfolio reads like a real studio site.</p> -->
+          </div>
+
+          <div class="filterBar" role="tablist" aria-label="Work filters">
+            <button class="filterChip is-active" type="button" data-filter="all" role="tab" aria-selected="true">All</button>
+            <button class="filterChip" type="button" data-filter="graphic-design" role="tab" aria-selected="false">Graphic Design</button>
+            <button class="filterChip" type="button" data-filter="video-editing" role="tab" aria-selected="false">Video Editing</button>
+          </div>
+        </div>
+
+        <div class="projectGrid" data-gallery>
+          <a class="projectCard reveal" data-tags="graphic-design" href="paw-prints.html">
+            <div class="projectCard__visual projectCard__visual--paw">
+              <span class="projectCard__badge">Brand Identity</span>
+              <div class="projectCard__mark">PP</div>
+            </div>
+            <div class="projectCard__body">
+              <p class="projectCard__meta">Graphic design • Pet care</p>
+              <h3>Paw Prints</h3>
+              <p>A warm, premium identity system with logo, palette, applications, and rollout across touchpoints.</p>
+              <span class="projectCard__cta">View case study →</span>
+            </div>
+          </a>
+
+          <a class="projectCard reveal reveal--delay1" data-tags="graphic-design" href="shrigana.html">
+            <div class="projectCard__visual projectCard__visual--shrigana">
+              <span class="projectCard__badge">Brand Identity</span>
+              <div class="projectCard__mark">SG</div>
+            </div>
+            <div class="projectCard__body">
+              <p class="projectCard__meta">Graphic design • Wellness</p>
+              <h3>Shrigana</h3>
+              <p>A holistic wellness identity built around growth, trust, natural colour, and clean packaging-ready design.</p>
+              <span class="projectCard__cta">View case study →</span>
+            </div>
+          </a>
+
+          <a class="projectCard reveal reveal--delay2" data-tags="graphic-design" href="von.html">
+            <div class="projectCard__visual projectCard__visual--von">
+              <span class="projectCard__badge">Rebrand</span>
+              <div class="projectCard__mark">VON</div>
+            </div>
+            <div class="projectCard__body">
+              <p class="projectCard__meta">Graphic design • Sports</p>
+              <h3>VON</h3>
+              <p>A sharper sports brand rebrand using bold typography, high contrast, and stronger rollout logic.</p>
+              <span class="projectCard__cta">View case study →</span>
+            </div>
+          </a>
+
+          <a class="projectCard reveal" data-tags="graphic-design" href="social-media-posters.html">
+            <div class="projectCard__visual projectCard__visual--posters">
+              <span class="projectCard__badge">Poster Gallery</span>
+              <div class="projectCard__mark">SM</div>
+            </div>
+            <div class="projectCard__body">
+              <p class="projectCard__meta">Graphic design • Social media</p>
+              <h3>Digital Canvas</h3>
+              <p>A curated set of social media posters and isometric visuals arranged as two topic sections.</p>
+              <span class="projectCard__cta">View gallery →</span>
+            </div>
+          </a>
+
+          <a class="projectCard reveal reveal--delay1" data-tags="video-editing" href="video-editing-gallery.html">
+            <div class="projectCard__visual projectCard__visual--video">
+              <span class="projectCard__badge">Service Spotlight</span>
+              <div class="projectCard__mark">VID</div>
+            </div>
+            <div class="projectCard__body">
+              <p class="projectCard__meta">Video editing</p>
+              <h3>Launch edits and social cuts</h3>
+              <p>Promo edits, campaign reels, and motion-backed social formats designed to hold attention and package the message cleanly.</p>
+              <span class="projectCard__cta">Open video gallery →</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="section section--alt" data-section data-label="Process">
+      <div class="wrap">
+        <div class="sectionHead reveal">
+          <p class="eyebrow eyebrow--dark">Process</p>
+          <h2>A cleaner studio flow</h2>
+          <!-- <p class="sectionLead">The process section has been kept, tightened, and reframed to feel like a real creative engagement — not just placeholder copy.</p> -->
+        </div>
+
+        <ol class="processList">
+          <li class="processCard reveal">
+            <span class="processCard__num">01</span>
+            <div>
+              <h3>Discovery</h3>
+              <p>I map the business, audience, offer, and current friction before pushing visuals.</p>
+            </div>
+          </li>
+          <li class="processCard reveal reveal--delay1">
+            <span class="processCard__num">02</span>
+            <div>
+              <h3>Direction</h3>
+              <p>I define the visual, structural, and messaging direction so the work has a spine.</p>
+            </div>
+          </li>
+          <li class="processCard reveal reveal--delay2">
+            <span class="processCard__num">03</span>
+            <div>
+              <h3>Design & Production</h3>
+              <p>I craft the visual systems, graphic assets, campaigns, and polished design deliverables aligned to the direction.</p>
+            </div>
+          </li>
+          <li class="processCard reveal reveal--delay3">
+            <span class="processCard__num">04</span>
+            <div>
+              <h3>Refinement & Delivery</h3>
+              <p>Review, iterate based on feedback, and deliver organized files, production-ready assets, and a clear visual system.</p>
+            </div>
+          </li>
+          <li class="processCard reveal">
+            <span class="processCard__num">05</span>
+            <div>
+              <h3>Handover & Support</h3>
+              <p>You receive comprehensive documentation, asset libraries, and guidance for maintaining and extending the design system.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="about" class="section" data-section data-label="About">
+      <div class="wrap aboutGridWrap">
+        <div class="sectionHead reveal">
+          <p class="eyebrow eyebrow--dark">About</p>
+          <h2>Creative on the surface. Structured underneath.</h2>
+           <!-- <p class="sectionLead">This combined version keeps the original studio personality, but makes it more commercially useful. It now reads like a studio that can actually win work.</p> -->
+        </div>
+
+        <div class="aboutGrid">
+          <article class="aboutCard reveal">
+            <h3>What I do</h3>
+            <p>I create thoughtful, polished design work—from brand identities and graphic campaigns to edited video content that communicates clearly and looks strong.</p>
+          </article>
+          <article class="aboutCard reveal reveal--delay1">
+            <h3>What I bring</h3>
+            <p>Strategy-first approach grounded in real research and insight, paired with disciplined execution and attention to visual systems that scale.</p>
+          </article>
+          <article class="aboutCard reveal reveal--delay2">
+            <h3>Who I work with</h3>
+            <p>Brands, businesses, and digital products that value clarity, craftsmanship, and design that actually works. Available for freelance and project-based work.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section--contact" data-section data-label="Contact">
+      <div class="wrap contactWrap">
+        <div class="contactIntro reveal">
+          <p class="eyebrow eyebrow--light">Contact</p>
+          <h2>Let's build something that people remember.</h2>
+          <p class="sectionLead sectionLead--light">Tell me about your project, timeline, and goals. I can support brand identity, campaign design, social visuals, and editing-led content systems.</p>
+
+          <div class="contactActions contactActions--social">
+            <a href="mailto:siddarth@email.com" class="btn btn--light btn--icon">
+              <span>Email</span>
+            </a>
+            <a href="https://linkedin.com/in/siddarth" target="_blank" rel="noopener noreferrer" class="btn btn--ghost-light btn--icon" aria-label="LinkedIn">
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://behance.net/siddarth" target="_blank" rel="noopener noreferrer" class="btn btn--ghost-light btn--icon" aria-label="Behance">
+              <span>Behance</span>
+            </a>
+          </div>
+        </div>
+
+        <aside class="contactPanel reveal reveal--delay1" aria-label="Contact details">
+          <div class="contactPanel__card">
+            <span class="contactInfo__label">Email</span>
+            <a class="contactPanel__link" href="mailto:siddarth@email.com">siddarth@email.com</a>
+          </div>
+
+          <div class="contactPanel__card">
+            <span class="contactInfo__label">Based</span>
+            <strong>UK / Remote</strong>
+          </div>
+
+          <div class="contactPanel__card">
+            <span class="contactInfo__label">Availability</span>
+            <strong>Open for freelance and project-based work</strong>
+          </div>
+
+          <div class="contactPanel__card contactPanel__card--cta">
+            <span class="contactInfo__label">Preferred workflow</span>
+            <p>Share your brief and references, and I will reply with a direction and next steps.</p>
+            <a href="mailto:siddarth@email.com" class="btn btn--light btn--icon">
+              <span>Send project brief</span>
+            </a>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__row">
+      <p>© <span data-year></span> Siddarth. All rights reserved.</p>
+      <div class="footer__links">
+        <a href="#home" data-jump="#home">Top</a>
+        <a href="#work" data-jump="#work">Work</a>
+        <a href="#contact" data-jump="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
+
