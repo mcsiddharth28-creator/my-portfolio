@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Shrigana — Brand Identity Case Study · Siddarth portfolio</title>
-  <meta name="description" content="A complete brand identity for Shrigana, a holistic wellness company rooted in nature, optimism, and personal growth. Designed by Siddarth portfolio." />
+  <title>Shrigana — Brand Identity Case Study · design with sid</title>
+  <meta name="description" content="A complete brand identity for Shrigana, a holistic wellness company rooted in nature, optimism, and personal growth. Designed by design with sid." />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,7 +35,7 @@
       --cream-dk:   #EDE8DC;
       --white:      #FFFFFF;
 
-      /* Siddarth portfolio tokens */
+      /* design with sid tokens */
       --ink:        #1A1A1A;
       --ink2:       #2E2E2E;
       --muted:      #6E6E6E;
@@ -245,13 +245,26 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 12px;
+      gap: 0;
     }
 
     .hero__logo-mark {
       width: 120px;
       height: auto;
       display: block;
+      margin: 0 0 2px 0;
+    }
+
+    .hero__logo-display svg {
+      width: 140px;
+      height: auto;
+      margin: 0 0 0 0;
+      line-height: 1;
+    }
+
+    .hero__logo-display span {
+      margin: 2px 0 0 0;
+      line-height: 1.2;
     }
 
     /* ── Left hero content ──────────────────────────── */
@@ -432,7 +445,7 @@
     }
 
     .pull-quote::before {
-      content: "❝";
+      /* content: "❝"; */
       position: absolute;
       top: -14px;
       right: 18px;
@@ -455,7 +468,22 @@
     .pull-quote p strong { color: var(--macaroni); font-style: normal; font-weight: 600; }
 
     /* ── Logo Formation ─────────────────────────────── */
-    .logo-section { background: var(--forest); overflow: hidden; }
+    .logo-section { 
+      background: var(--forest); 
+      overflow: hidden; 
+      text-align: center;
+    }
+
+    .logo-section .section-lead {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .logo-section .section-title {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
 
     .logo-construction {
       display: grid;
@@ -621,9 +649,9 @@
     .colour-block {
       display: flex;
       flex-direction: column;
-      justify-content: flex-end;
-      padding: 32px 28px;
-      min-height: 320px;
+      justify-content: flex-start;
+      padding: 40px 28px;
+      min-height: 380px;
       position: relative;
       overflow: hidden;
     }
@@ -632,60 +660,54 @@
     .colour-block--macaroni { background: var(--macaroni); }
     .colour-block--moss { background: var(--moss); }
 
-    .colour-block::before {
-      content: "";
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      width: 80px;
-      height: 80px;
-      border-radius: 50%;
-      border: 2px solid rgba(255,255,255,.15);
-    }
+    
 
     .colour-block__name {
       font-family: 'Molgon Regular', sans-serif;
-      font-size: 1.3rem;
+      font-size: 1.6rem;
       letter-spacing: -.01em;
       color: #fff;
-      margin-bottom: 4px;
-      line-height: 1.1;
+      margin-bottom: 6px;
+      line-height: 1.2;
+      font-weight: 600;
+      min-height: 2.4em;
     }
 
     .colour-block--macaroni .colour-block__name { color: var(--forest-dk); }
     .colour-block--moss .colour-block__name { color: var(--forest-dk); }
 
     .colour-block__sub {
-      font-size: .7rem;
+      font-size: .85rem;
       text-transform: uppercase;
-      letter-spacing: .1em;
-      font-weight: 600;
+      letter-spacing: .12em;
+      font-weight: 700;
       color:rgba(255,255,255,.72);
-      margin-bottom: 6px;
+      margin-bottom: 12px;
     }
 
-    .colour-block--macaroni .colour-block__sub { color: rgba(43,94,50,.55); }
-    .colour-block--moss .colour-block__sub { color: rgba(43,94,50,.55); }
+    .colour-block--macaroni .colour-block__sub { color: rgba(43,94,50,.65); }
+    .colour-block--moss .colour-block__sub { color: rgba(43,94,50,.65); }
 
     .colour-block__hex {
       font-family: 'Courier New', monospace;
-      font-size: .75rem;
+      font-size: .9rem;
       color:rgba(255,255,255,.72);
+      font-weight: 600;
+      margin-bottom: 12px;
     }
 
-    .colour-block--macaroni .colour-block__hex { color: rgba(43,94,50,.45); }
-    .colour-block--moss .colour-block__hex { color: rgba(43,94,50,.45); }
+    .colour-block--macaroni .colour-block__hex { color: rgba(43,94,50,.55); }
+    .colour-block--moss .colour-block__hex { color: rgba(43,94,50,.55); }
 
     .colour-block__role {
-      font-size: .8rem;
+      font-size: .95rem;
       color:rgba(255,255,255,.72);
-      line-height: 1.5;
-      margin-top: 10px;
-      font-weight: 300;
+      line-height: 1.6;
+      font-weight: 400;
     }
 
-    .colour-block--macaroni .colour-block__role { color: rgba(43,94,50,.65); }
-    .colour-block--moss .colour-block__role { color: rgba(43,94,50,.65); }
+    .colour-block--macaroni .colour-block__role { color: rgba(43,94,50,.75); }
+    .colour-block--moss .colour-block__role { color: rgba(43,94,50,.75); }
 
     /* Colour rationale */
     .colour-rationale {
@@ -728,7 +750,7 @@
 
     .clearspace-grid {
       display: grid;
-      grid-template-columns: 1.2fr 1fr;
+      grid-template-columns: 1fr 1fr;
       gap: 48px;
       margin-top: 40px;
       align-items: center;
@@ -736,7 +758,7 @@
 
     .clearspace-card {
       background: #fff;
-      padding: 32px;
+      padding: 24px;
       border-radius: 20px;
       border: 2px dashed rgba(0,0,0,.1);
     }
@@ -1071,7 +1093,7 @@
       pointer-events: none;
     }
 
-    .app-card__caption--light { background: linear-gradient(transparent, rgba(248,245,238,.9)); }
+    .app-card__caption--light { background: transparent; }
 
     .app-card__caption-title {
       font-family: 'Patrick Hand', cursive;
@@ -1302,7 +1324,7 @@
 
     /* ── Quote ──────────────────────────────────────── */
     .quote-section {
-      background: var(--macaroni);
+      background: #fff;
       position: relative;
       overflow: hidden;
     }
@@ -1629,11 +1651,8 @@
   <header class="topbar">
     <div class="wrap topbar__row">
       <a class="brand" href="index.html">
-
-        <div class="brand__name">
-          <span class="brand__nameMain">Siddarth</span>
-          <span class="brand__nameSub">portfolio</span>
-        </div>
+        <img src="assests/img/logo.svg" alt="design with sid logo" style="height: 48px; width: auto;">
+        <span class="brand__name">Design with Sid</span>
       </a>
 
       <nav class="topbar__crumb" aria-label="Breadcrumb">
@@ -1706,7 +1725,7 @@
         <div class="hero__logo-display">
           <img class="hero__logo-mark" src="assests/img/shrigana/logo-01.png" alt="Shrigana logo mark" loading="lazy" />
           <svg viewBox="0 0 140 28" width="140" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <text x="0" y="22" style="font-family: var(--shrigana-display);" font-size="22" fill="white" letter-spacing="1">Shrigana</text>
+            <text x="70" y="22" text-anchor="middle" style="font-family: var(--shrigana-display);" font-size="22" fill="white" letter-spacing="1">Shrigana</text>
           </svg>
           <span style="font-size:.62rem; letter-spacing:.18em; color:rgba(255,255,255,.72); text-transform:uppercase; font-weight:600;">Studio of Wellness</span>
         </div>
@@ -1775,7 +1794,7 @@
           </div>
           <div class="brief-item">
             <span class="brief-item__label">Location</span>
-            <span class="brief-item__val">UK / Remote</span>
+            <span class="brief-item__val">Chennai, India</span>
           </div>
           <div class="brief-item">
             <span class="brief-item__label">Values</span>
@@ -1795,9 +1814,9 @@
   <!-- ── Logo Formation ────────────────────────────────── -->
   <section class="logo-section">
     <div class="wrap">
-      <p class="section-eyebrow reveal" style="color:rgba(255,255,255,.72);">Logo Formation</p>
+      <p style="color:rgba(255,255,255,.72);">Logo Formation</p>
       <h2 class="section-title section-title--light reveal reveal--delay1">
-        Leaf + Sun<br>
+        Leaf + Sun
         <span style="color:var(--macaroni);">= Life.</span>
       </h2>
       <p class="section-lead reveal reveal--delay2" style="color:rgba(255,255,255,.72);">
@@ -1816,7 +1835,7 @@
         <div class="logo-grid">
           <div class="logo-card logo-card--white reveal reveal--delay1">
             <span class="logo-card__mark"><img class="logo-card__mark-img" src="assests/img/shrigana/logo.svg" alt="Shrigana logo mark" loading="lazy"></span>
-            <span class="logo-card__wordmark">Shrigana</span>
+            <span class="logo-card__wordmark" style="text-align: center;">Shrigana</span>
             <span class="logo-card__sub">Studio of Wellness</span>
             <span class="logo-card__bg-label">On White</span>
           </div>
@@ -1824,13 +1843,13 @@
             <span class="logo-card__mark"><img class="logo-card__mark-img logo-card__mark-img--light" src="assests/img/shrigana/logo.svg" alt="Shrigana logo mark" loading="lazy"></span>
             <span class="logo-card__wordmark">Shrigana</span>
             <span class="logo-card__sub" style="color:rgba(255,255,255,.72);">Studio of Wellness</span>
-            <span class="logo-card__bg-label">On Forest</span>
+            <span class="logo-card__bg-label" style="color: white;">On Forest</span>
           </div>
           <div class="logo-card logo-card--yellow reveal reveal--delay3">
             <span class="logo-card__mark"><img class="logo-card__mark-img logo-card__mark-img--light" src="assests/img/shrigana/logo.svg" alt="Shrigana logo mark" loading="lazy"></span>
             <span class="logo-card__wordmark">Shrigana</span>
             <span class="logo-card__sub">Studio of Wellness</span>
-            <span class="logo-card__bg-label">On Yellow</span>
+            <span class="logo-card__bg-label" style="color: black;">On Yellow</span>
           </div>
           <div class="logo-card logo-card--black reveal reveal--delay1">
             <span class="logo-card__mark"><img class="logo-card__mark-img logo-card__mark-img--light" src="assests/img/shrigana/logo.svg" alt="Shrigana logo mark" loading="lazy"></span>
@@ -1876,10 +1895,10 @@
           <p class="colour-block__role">The warmth of the sun. Adds optimism and radiance to the brand — used in the logo sun element and highlights.</p>
         </div>
         <div class="colour-block colour-block--moss">
-          <div class="colour-block__name">Light<br>Moss Green</div>
-          <div class="colour-block__sub">Secondary</div>
-          <div class="colour-block__hex">#7ABD6E</div>
-          <p class="colour-block__role">A lighter, accessible green — used for backgrounds, supporting elements, and to add tonal variation to the system.</p>
+          <div class="colour-block__name" style="color: white;">Light<br>Moss Green</div>
+          <div class="colour-block__sub" style="color: white;">Secondary</div>
+          <div class="colour-block__hex" style="color: white;">#7ABD6E</div>
+          <p class="colour-block__role" style="color: white;">A lighter, accessible green — used for backgrounds, supporting elements, and to add tonal variation to the system.</p>
         </div>
       </div>
 
@@ -1897,9 +1916,9 @@
 
     <section class="clearspace-section">
   <div class="wrap">
-    <p class="section-eyebrow">Logo Guidelines</p>
-    <h2 class="section-title">Clear Space</h2>
-    <p class="section-lead">
+    <p class="section-eyebrow" style="color: black;">Logo Guidelines</p>
+    <h2 class="section-title" style="color:#3A7D44;">Clear Space</h2>
+    <p class="section-lead" style="color: black;">
       To maintain visibility and impact, the logo must always be surrounded by sufficient clear space.
     </p>
 
@@ -1909,16 +1928,16 @@
       </div>
 
       <div class="clearspace-info">
-        <h3>Spacing Rule</h3>
-        <p>
+        <h2 style="color: #3A7D44;">Spacing Rule</h2>
+        <p style="color: black;">
           The minimum clear space is defined by the height of the @ icon.
           No text, images, or elements should enter this area.
         </p>
 
         <ul>
-          <li>Maintain equal spacing on all sides</li>
-          <li>Do not crowd the logo</li>
-          <li>Always preserve proportions</li>
+          <li style="color: black;">Maintain equal spacing on all sides</li>
+          <li style="color: black;">Do not crowd the logo</li>
+          <li style="color: black;">Always preserve proportions</li>
         </ul>
       </div>
     </div>
@@ -1930,7 +1949,7 @@
     <div class="wrap">
       <p class="section-eyebrow reveal" style="color:rgba(255,255,255,.72);">Typography</p>
       <h2 class="section-title section-title--light reveal reveal--delay1">
-        Friendly.<br>
+        Friendly
         <span style="color:var(--macaroni);">Professional.</span><br>
         <span style="color:rgba(255,255,255,.72); font-size:.55em;">Accessible to all.</span>
       </h2>
@@ -2011,10 +2030,7 @@
           <div class="app-visual">
             <img src="assests/img/shrigana/Yoga Bag.png" alt="Shrigana Tote Bag" class="app-card__image gallery-image" data-gallery-src="assests/img/shrigana/Yoga Bag.png" data-gallery-index="0" />
           </div>
-          <div class="app-card__caption">
-            <span class="app-card__caption-title">Tote Bag</span>
-            <span class="app-card__caption-meta">Merchandise</span>
-          </div>
+        
         </div>
 
         <!-- Mug -->
@@ -2022,10 +2038,7 @@
           <div class="app-visual">
             <img src="assests/img/shrigana/Yoga Cup.png" alt="Shrigana Branded Mug" class="app-card__image gallery-image" data-gallery-src="assests/img/shrigana/Yoga Cup.png" data-gallery-index="1" />
           </div>
-          <div class="app-card__caption app-card__caption--light">
-            <span class="app-card__caption-title">Branded Mug</span>
-            <span class="app-card__caption-meta">Merchandise</span>
-          </div>
+          
         </div>
 
         <!-- Candle -->
@@ -2033,10 +2046,7 @@
           <div class="app-visual">
             <img src="assests/img/shrigana/Yoga Candle.png" alt="Shrigana Wellness Candle" class="app-card__image gallery-image" data-gallery-src="assests/img/shrigana/Yoga Candle.png" data-gallery-index="2" />
           </div>
-          <div class="app-card__caption app-card__caption--light">
-            <span class="app-card__caption-title">Wellness Candle</span>
-            <span class="app-card__caption-meta">Packaging</span>
-          </div>
+         
         </div>
 
         <!-- Water bottle — span 2 -->
@@ -2044,10 +2054,7 @@
           <div class="app-visual">
             <img src="assests/img/shrigana/Yoga Bottle.png" alt="Shrigana Water Bottle" class="app-card__image gallery-image" data-gallery-src="assests/img/shrigana/Yoga Bottle.png" data-gallery-index="3" />
           </div>
-          <div class="app-card__caption app-card__caption--light">
-            <span class="app-card__caption-title">Water Bottle</span>
-            <span class="app-card__caption-meta">Merchandise · Lifestyle</span>
-          </div>
+          
         </div>
 
         <!-- Store signage -->
@@ -2055,10 +2062,7 @@
           <div class="app-visual">
             <img src="assests/img/shrigana/Name Board Design.png" alt="Shrigana Store Signage" class="app-card__image gallery-image" data-gallery-src="assests/img/shrigana/Name Board Design.png" data-gallery-index="4" />
           </div>
-          <div class="app-card__caption app-card__caption--light">
-            <span class="app-card__caption-title">Store Signage</span>
-            <span class="app-card__caption-meta">Environmental</span>
-          </div>
+          
         </div>
 
         <!-- Business cards — span 2 -->
@@ -2066,10 +2070,7 @@
           <div class="app-visual">
             <img src="assests/img/shrigana/Business Card Mock-Up.png" alt="Shrigana Business Cards" class="app-card__image gallery-image" data-gallery-src="assests/img/shrigana/Business Card Mock-Up.png" data-gallery-index="5" />
           </div>
-          <div class="app-card__caption app-card__caption--light">
-            <span class="app-card__caption-title">Business Cards</span>
-            <span class="app-card__caption-meta">Stationery · Print</span>
-          </div>
+          
         </div>
 
       </div>
@@ -2123,13 +2124,7 @@
           in service of one feeling: stepping outside on a quiet morning and breathing in fresh air. 
           That's the brand promise — and the design delivers it at every touchpoint.
         </p>
-        <div class="quote-author reveal reveal--delay3">
-          <div class="quote-avatar">🌱</div>
-          <div>
-            <div class="quote-author__name">Siddarth portfolio</div>
-            <div class="quote-author__role">Lead Designer · Brand Identity · 2024</div>
-          </div>
-        </div>
+      
       </div>
     </div>
   </section>
@@ -2189,8 +2184,8 @@
   <!-- ── Footer ───────────────────────────────────────── -->
   <footer class="footer">
     <div class="wrap footer__row">
-      <span class="footer__brand">Siddarth portfolio</span>
-      <p style="font-size:.8rem;">© <span id="footerYear"></span> Siddarth portfolio · doodles included</p>
+      <span class="footer__brand">design with sid</span>
+      <p style="font-size:.8rem;">© <span id="footerYear"></span> design with sid · doodles included</p>
       <nav class="footer__links">
         <a href="index.html#home">Home</a>
         <a href="index.html#work">Work</a>

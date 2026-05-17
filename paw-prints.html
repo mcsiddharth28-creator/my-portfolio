@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Pāw Prints — Brand Identity Case Study · Siddarth portfolio</title>
-  <meta name="description" content="A complete brand identity system for Pāw Prints, a premium pet care brand. Designed by Siddarth portfolio." />
+  <title>Pāw Prints — Brand Identity Case Study · design with sid</title>
+  <meta name="description" content="A complete brand identity system for Pāw Prints, a premium pet care brand. Designed by design with sid." />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,7 +28,7 @@
       --dusty:      #CC5577;
       --seapink:    #E8A0B0;
 
-      /* Siddarth portfolio palette */
+      /* design with sid palette */
       --accent:  #F4C542;
       --accent2: #86D7C6;
       --accent3: #FF7B7B;
@@ -486,21 +486,21 @@
 
 .clearspace-grid {
   display: grid;
-  grid-template-columns: 1.2fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 48px;
   margin-top: 40px;
   align-items: center;
 }
 
 .clearspace-card {
-  background: #fff;
-  padding: 32px;
+  /* background: #fff; */
+  padding: 24px;
   border-radius: 20px;
   border: 2px dashed rgba(0,0,0,.1);
 }
 
 .clearspace-card img {
-  width: 100%;
+  width: 80%;
 }
 
 .clearspace-info h3 {
@@ -850,8 +850,9 @@
     }
 
     .logo-lockup__mark {
-      font-size: 3.5rem;
-      line-height: 1;
+      width: min(140px, 70%);
+      height: auto;
+      display: block;
     }
 
     .logo-lockup__name {
@@ -1575,12 +1576,9 @@
   <!-- ── Topbar ───────────────────────────────────────── -->
   <header class="topbar">
     <div class="wrap topbar__row">
-      <a class="brand" href="index.html" aria-label="Siddarth portfolio">
-
-        <div class="brand__name">
-          <span class="brand__nameMain">Siddarth</span>
-          <span class="brand__nameSub">portfolio</span>
-        </div>
+      <a class="brand" href="index.html" aria-label="design with sid">
+        <img src="assests/img/logo.svg" alt="design with sid logo" style="height: 48px; width: auto;">
+        <span class="brand__name">Design with Sid</span>
       </a>
 
       <nav class="topbar__crumb" aria-label="Breadcrumb">
@@ -1710,7 +1708,7 @@
           </div>
           <div class="brief-card reveal reveal--delay2">
             <div class="brief-card__label">Location</div>
-            <div class="brief-card__value">UK / Remote</div>
+            <div class="brief-card__value">Chennai, India</div>
           </div>
           <div class="brief-card brief-card--accent reveal reveal--delay1" style="grid-column: span 2;">
             <div class="brief-card__label">Deliverables</div>
@@ -1783,7 +1781,7 @@
       <h2 class="section-title reveal reveal--delay1" style="color:var(--bramble);">
         The mark. On every surface.
       </h2>
-      <p class="section-lead reveal reveal--delay2" style="color:rgba(74,35,24,.72);">
+      <p class="section-lead reveal reveal--delay2" style="color:rgba(255, 255, 255, 0.72);">
         The logo is built for versatility — at home on a tote bag or a delivery van. 
         Three approved combinations for light, dark, and brand backgrounds.
       </p>
@@ -1791,8 +1789,8 @@
       <div class="logo-grid">
         <div class="logo-card logo-card--light reveal reveal--delay1">
           <div class="logo-lockup">
-            <span class="logo-lockup__mark">🐾</span>
-            <span class="logo-lockup__name" style="color:var(--bramble);">Pāw Prints</span>
+            <img class="logo-lockup__mark" src="assests/img/paw prints/Paw Prints Logo.svg" alt="Pāw Prints logo">
+            <span class="logo-lockup__name" style="color:var(--bramble);">Paw Prints</span>
             <span class="logo-lockup__tagline" style="color:var(--muted);">Your pet's future starts here</span>
           </div>
           <span class="logo-card__label">On Light</span>
@@ -1800,8 +1798,8 @@
 
         <div class="logo-card logo-card--dark reveal reveal--delay2">
           <div class="logo-lockup">
-            <span class="logo-lockup__mark">🐾</span>
-            <span class="logo-lockup__name">Pāw Prints</span>
+            <img class="logo-lockup__mark" src="assests/img/paw prints/Paw Prints Logo.svg" alt="Pāw Prints logo">
+            <span class="logo-lockup__name">Paw Prints</span>
             <span class="logo-lockup__tagline">Your pet's future starts here</span>
           </div>
           <span class="logo-card__label">On Dark</span>
@@ -1809,8 +1807,8 @@
 
         <div class="logo-card logo-card--brand reveal reveal--delay3">
           <div class="logo-lockup">
-            <span class="logo-lockup__mark">🐾</span>
-            <span class="logo-lockup__name" style="color:var(--bramble);">Pāw Prints</span>
+            <img class="logo-lockup__mark" src="assests/img/paw prints/Paw Prints Logo.svg" alt="Pāw Prints logo">
+            <span class="logo-lockup__name" style="color:var(--bramble);">Paw Prints</span>
             <span class="logo-lockup__tagline" style="color:var(--persian);">Your pet's future starts here</span>
           </div>
           <span class="logo-card__label">On Brand</span>
@@ -1823,14 +1821,14 @@
   <section class="clearspace-section">
   <div class="wrap">
     <p class="section-eyebrow">Logo Guidelines</p>
-    <h2 class="section-title">Clear Space</h2>
+    <h2 class="section-title" style="color: white;">Clear Space</h2>
     <p class="section-lead">
       To maintain visibility and impact, the logo must always be surrounded by sufficient clear space.
     </p>
 
     <div class="clearspace-grid">
       <div class="clearspace-card">
-        <img src="assests/images/clearspace.png" alt="Clear space diagram">
+        <img src="assests/img/paw prints/clear spacing.jpg" alt="Clear space diagram">
       </div>
 
       <div class="clearspace-info">
@@ -1945,7 +1943,7 @@
         <!-- Apparel — tall -->
         <div class="app-card app-card--tall reveal reveal--delay3">
           <div class="app-visual">
-            <img src="assests/img/paw prints//T-Shirt Mock-up.png" alt="Pāw Prints Branded Apparel" class="app-card__image gallery-image" data-gallery-src="assests/img/portfolio/3.jpg" data-gallery-index="2" />
+            <img src="assests/img/paw prints//T-Shirt Mock-up.jpg" alt="Pāw Prints Branded Apparel" class="app-card__image gallery-image" data-gallery-src="assests/img/portfolio/3.jpg" data-gallery-index="2" />
           </div>
           <div class="app-card__caption">
             <span class="app-card__caption-title">Branded Apparel</span>
@@ -1956,7 +1954,7 @@
         <!-- Business cards — span 2 -->
         <div class="app-card app-card--span2 reveal reveal--delay1">
           <div class="app-visual">
-            <img src="assests/img/paw prints/Business Card Mock-up.png" alt="Pāw Prints Business Cards Design" class="app-card__image gallery-image" data-gallery-src="assests/img/portfolio/4.jpg" data-gallery-index="3" />
+            <img src="assests/img/paw prints/Business Card Mock-up.jpg" alt="Pāw Prints Business Cards Design" class="app-card__image gallery-image" data-gallery-src="assests/img/portfolio/4.jpg" data-gallery-index="3" />
           </div>
           <div class="app-card__caption">
             <span class="app-card__caption-title">Business Cards</span>
@@ -2035,15 +2033,13 @@
       <div class="quote-inner">
         <span class="quote-mark reveal">"</span>
         <p class="quote-text reveal reveal--delay1">
-          Siddarth portfolio gave Pāw Prints a brand that feels like <strong>us</strong>. 
+          Design with sid gave Pāw Prints a brand that feels like <strong>us</strong>. 
           Warm, professional, and completely consistent — from our business cards to our vans. 
           The whole process was clear and collaborative from day one.
         </p>
-        <div class="quote-author reveal reveal--delay2">
-          <div class="quote-avatar" aria-hidden="true">🐶</div>
-          <div>
-            <div class="quote-author__name">Pāw Prints Team</div>
-            <div class="quote-author__role">Pet Care Brand, United Kingdom</div>
+       
+            <!-- <div class="quote-author__name">Pāw Prints Team</div> -->
+            <!-- <div class="quote-author__role">Pet Care Brand, United Kingdom</div> -->
           </div>
         </div>
       </div>
@@ -2107,9 +2103,9 @@
   <!-- ── Footer ───────────────────────────────────────── -->
   <footer class="footer">
     <div class="wrap footer__row">
-      <span class="footer__brand">Siddarth portfolio</span>
+      <span class="footer__brand">design with sid</span>
       <p class="small" style="font-size:.82rem;">
-        © <span id="footerYear"></span> Siddarth portfolio · doodles included
+        © <span id="footerYear"></span> design with sid · doodles included
       </p>
       <nav class="footer__links" aria-label="Footer navigation">
         <a href="index.html#home">Home</a>

@@ -136,9 +136,9 @@
   });
 
   $('[data-open-demo]')?.addEventListener('click', () => {
-    const subject = encodeURIComponent('Project enquiry — Siddarth portfolio');
+    const subject = encodeURIComponent('Project enquiry — design with sid');
     const body = encodeURIComponent([
-      'Hi Siddarth portfolio,',
+      'Hi design with sid,',
       '',
       'I want help with:',
       'Timeline:',

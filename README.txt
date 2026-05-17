@@ -1,4 +1,4 @@
-Siddarth portfolio — Creative Studio Portfolio
+design with sid — Creative Studio Portfolio
 
 How to use:
 1. Open index.html in a browser.
