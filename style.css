@@ -289,6 +289,7 @@ p{margin:0}
 .projectCard__visual--video{background:linear-gradient(135deg, #111827, #ef4444)}
 .projectCard__visual--posters{background:linear-gradient(135deg, #5b21b6, #f97316)}
 .projectCard__visual--reports{background:linear-gradient(135deg, #0f172a, #475569 52%, #d97706)}
+.projectCard__visual--presentations{background:linear-gradient(135deg, #1e3a8a, #7c3aed 52%, #ec4899)}
 
 .posterGrid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
 .posterCard{
